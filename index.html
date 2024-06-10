@@ -3,88 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Torneio amigos do guaraná</title>
-    <style>
-        body{
-            background: blue;
-            text-align: center;
-        }
-        form{
-            width: 40%;
-            margin: auto;
-            border: 1px solid green;   
-            background-color: rgb(109, 105, 110);   
-            margin-bottom: 70px;   
-            color: aliceblue;  
-        }
-               @media only screen and (max-width: 700px){
-             form{
-             width: 100%;
-             }
-               }
-        input{
-            width: 60%;
-            margin: auto;
-            height: 35px;
-            margin-bottom: 10px;
-            color: aliceblue;
-        }
-        .div {
-           width: 20%;
-           border: 1px solid red;
-        }
-        h1{
-            margin: auto;
-            background: greenyellow;
-            padding: 10px;
-        }
-        h2 {
-            background: red;
-        }
-        .btn{
-            cursor: pointer;
-            background: blue;
-        }
-        .btn1{
-            cursor: pointer;
-            background: red;
-        }
-        a{
-            font-size: 35px;
-            background: white;
-        }
-        h3 {
-            background-color: rgb(245, 253, 245);
-            font-size: 40px;
-        }
-        u{
-            color: red;
-        }
-    </style>
+    <title>Metas</title>
 </head>
+<style>
+    body{
+        background: rgb(33, 33, 82);
+        color: aliceblue;
+        margin-left: 10px;
+    }
+    p{
+        font-size: 30px;
+    }
+</style>
 <body>
-    <h1>FUTEBOL AMIGOS DO GUARANÁ</h1><br>
-    <form action="Tabela.html">
-        <h2>GRUPO 1</h2>
-       
-        1<input class="btn" type="text" value=""><br>
-        2<input class="btn" type="text" value=""><br>
-        3<input class="btn1" type="text" value=""><br>
-        4<input class="btn1" type="text" value=""><BR></BR><BR></BR>
-        <a href="Tabela.html">TABELA GRUPO 1</a><br>
-        <h2>GRUPO 2</h2>
-        1<input class="btn" type="text" value=""><br>
-        2<input class="btn" type="text" value=""><br>
-        3<input class="btn1" type="text" value=""><br>
-        4<input class="btn1" type="text" value=""><br>
+    <h1>Metas 01/06</h1>
+   <h2>Cancelar Pedido no salesforce e no sap</h2><br>
+   <h2>Resumo</h2>
+   <p>Quando alguém mover um pedido de compra para o status Cancelado no salesforce, a integração deve ir lá no SAP e cancelar o pedido de compra lá também.</p><br><br>
 
-        <a href="Tabela2.html">TABELA GRUPO 2</a>
-    </form><br>
-
-
-    <table>
-        <thead></thead>
-    </table>
-    <a href="semi.html">Semi Finais</a>
+<hr>
+   <h2>(BUG) Integração da posição no estoque Sap -> Sales</h2><br>
+   <p>Explicação, no sap tem um campo chamado entrada de estoque, campo posição no estoque que é algo que o pessoal preenche no sap e que integra no salesforce, mas por algum motivo parou de integrar esse campo, Podem está preenchendo esses dados em outro campo que não é o posição em estoque, pois necessecita mudar algo na integração...</p>
+   <h2>Resumo</h2>
+   <p>descobrir esse bug e modificar o campo para a integração correta.</p>
 </body>
 </html>
